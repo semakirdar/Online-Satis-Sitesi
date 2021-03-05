@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineSatisSitesi", "OnlineSatisSitesi\OnlineSatisSitesi.csproj", "{38303408-F53D-4CCD-A2ED-A4C7DB620BFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{F3F6F917-873A-4F2F-8147-FECB76191788}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servis", "Servis\Servis.csproj", "{97542A8C-97C9-4E20-8074-460B3BD1C0F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38303408-F53D-4CCD-A2ED-A4C7DB620BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38303408-F53D-4CCD-A2ED-A4C7DB620BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38303408-F53D-4CCD-A2ED-A4C7DB620BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38303408-F53D-4CCD-A2ED-A4C7DB620BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3F6F917-873A-4F2F-8147-FECB76191788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3F6F917-873A-4F2F-8147-FECB76191788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3F6F917-873A-4F2F-8147-FECB76191788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3F6F917-873A-4F2F-8147-FECB76191788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97542A8C-97C9-4E20-8074-460B3BD1C0F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97542A8C-97C9-4E20-8074-460B3BD1C0F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97542A8C-97C9-4E20-8074-460B3BD1C0F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97542A8C-97C9-4E20-8074-460B3BD1C0F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5358346-76CD-4D08-A25A-A2A0EFB5048E}
+	EndGlobalSection
+EndGlobal

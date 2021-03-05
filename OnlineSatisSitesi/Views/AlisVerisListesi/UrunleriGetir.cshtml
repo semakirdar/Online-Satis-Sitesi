@@ -1,0 +1,65 @@
+﻿@model List<DAL.Models.Urun>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>UrunleriGetir</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    @using (Html.BeginForm("SatinAl","AlisVerisListesi",FormMethod.Post,new { enctype="multipart/form-data" }))
+    {
+
+        @Html.AntiForgeryToken()
+    
+
+
+
+        <div class="container">
+
+        <div class="jumbotron">
+            <h1>Alış Veriş Yap</h1>
+            <input type="submit" class="btn btn-success" value="işlemi tamamla" />
+
+        </div>
+        <table class="table">
+            <thead>
+                <tr class="table-info">
+                    <th>Satın Al</th>
+                    <th>Ad</th>
+                    <th>Resim</th>
+                    <th>Fiyat</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach(var urun in Model)
+                {
+                    <tr>
+
+                        <td>
+                            <input type="checkbox" id="@urun.id" name="@urun.id" value="@urun.id"/>
+                        </td>
+                        <td>
+                            @urun.Ad
+                        </td>
+                        <td>
+                            <input type="image" src="~/Resimler/@urun.Resim" width="200" height="200" alt="@urun.Ad" />
+                        </td>
+                        <td>
+                            @(urun.Fiyat)$
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    }
+</body>
+</html>
